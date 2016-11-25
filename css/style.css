@@ -34,6 +34,7 @@ div {
 header {
     padding-top: 30px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.136);
+    position: relative;
 }
 
 .header-logo {
@@ -47,7 +48,60 @@ nav {
     border-top: 1px solid #efefef;
 }
 
+.search {
+  line-height: 51px;
+  float: right;
+  margin-right: 15px;
+  color: #1d2029;
+  cursor: pointer;
+}
+
+.search-area {
+  position: absolute;
+  bottom: -60px;
+  z-index: 100;
+  height: 60px;
+  display: none;
+  width: 100%;
+  background: none repeat scroll 0 0 #e0e7ec;
+  border: medium none;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+  padding: 13px 0;
+}
+
+.search-button {
+  width: 8%;
+  float: left;
+  box-shadow: none;
+  border: none;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  margin-left: 1%;
+}
+
+.search-close {
+  float: right;
+  font-size: 20px;
+  line-height: 34px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.search-input {
+  background: none repeat scroll 0 0 #ffffff;
+  border: none;
+  color: #444444;
+  float: left;
+  height: 34px;
+  line-height: 18px;
+  padding: 0 10px;
+  vertical-align: top;
+  width: 80%;
+}
+
 nav ul {
+    float: left;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -161,7 +215,6 @@ nav a:hover, .nav-active {
 
 .plus {
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .plus-logo {
@@ -220,6 +273,39 @@ nav a:hover, .nav-active {
     padding: 37px 50px;
 }
 
+.mc-left {
+  width: 70%;
+  float: left;
+}
+
+.mc-right {
+  width: 30%;
+  float: right;
+}
+
+.mc-logo {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  line-height: 22px;
+}
+
+.mc-description {
+  font-size: 13px;
+  margin-top: 20px;
+  display: block;
+}
+
+.mc-button {
+  width: 150px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  float: right;
+  padding: 10px 20px;
+}
+
+
 .page {
     padding-top: 25px;
 }
@@ -260,6 +346,7 @@ aside {
 
 .page-content {
     float: right;
+    min-height: 300px;
     margin-top: 25px;
     width: 70%;
 }
@@ -438,4 +525,297 @@ aside {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 22px;
+}
+
+.clients {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.clients-ovh {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.clients-ovh ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200%;
+}
+
+.clients-ovh li {
+  width: 50%;
+  float: left;
+}
+
+.client {
+  width: 20%;
+  float: left;
+}
+
+.clients img {
+  height: 60px;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.place {
+  margin-top: 20px;
+}
+
+.place-logo {
+  width: 100%;
+  border-bottom: 2px solid #0088cc;
+  padding-bottom: 10px;
+}
+
+.place-logo-text {
+  float: left;
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.place-logo-right {
+  float: right;
+}
+
+.place-button {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #0088cc;
+    color: #0088cc!important;
+    background-color: transparent!important;
+}
+
+.place-active {
+    color: #ffffff!important;
+    background-color: #0088cc!important;
+}
+
+.place-area {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  background-color: orange;
+}
+
+.place-area iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#placeStorage {
+  display: none;
+}
+
+footer {
+  background: none repeat scroll 0 0 #2c364a;
+  box-shadow: 0 70px 50px -20px #213040 inset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.footer-logo {
+    height: 30px;
+    width: 142px;
+    float: left;
+}
+
+.footer-middle {
+    float: left;
+    margin-left: 50px;
+}
+
+
+.footer-right {
+    float: right;
+    width: 50%;
+}
+
+.footer-right .header-number a {
+    color: #969ba5;
+    font-size: 15px;
+}
+
+.footer-right .header-number a b {
+    color: #ffffff;
+}
+
+.footer-middle span {
+    color: #969ba5;
+    font-size: 13px;
+    display: block;
+}
+
+.sert {
+    margin-bottom: 10px;
+    border: 1px solid #e2e7eb;
+    padding: 10px;
+}
+
+.sert-img {
+    float: left;
+    width: 20%;
+}
+
+.sert-right {
+    float: right;
+    width: 75%;
+}
+
+.sert-logo {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.otz {
+    margin-bottom: 50px;
+}
+
+.otz-content {
+    background-color: #eaf0f2;
+    padding: 30px;
+    position: relative;
+}
+
+.otz-left {
+    width: 15%;
+    float: left;
+    color: #0088cc;
+    font-size: 80px;
+}
+
+.otz-right {
+    float: right;
+    width: 82%;
+}
+
+.otz-text p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.otz-doc {
+    margin-top: 20px;
+}
+
+.otz-icon {
+    font-size: 50px;
+    float: left;
+}
+
+.otz-doc-right {
+    float: left;
+    margin-left: 20px;
+}
+
+.otz-doc-right-logo {
+    font-weight: bold;
+    font-size: 14px;
+    color: #0088cc;
+}
+
+.otz-doc-right-link {
+    display: block;
+    font-size: 14px;
+    color: #707f88;
+    margin-top: 5px;
+}
+
+.otz-angle {
+    width: 37px;
+    height: 36px;
+    position: absolute;
+    bottom: -36px;
+    left: 60px;
+    background: url(../images/angle.png) 0 0 no-repeat;
+}
+
+.otz-name {
+    margin-top: 20px;
+    padding-left: 120px;
+}
+
+.otz-name-title {
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+}
+
+.otz-name-company {
+    font-size: 15px;
+    display: block;
+    margin-top: 2px;
+}
+
+.cont-left {
+    width: 35%;
+    float: left;
+    margin-top: 20px;
+}
+
+.cont-right {
+    width: 63%;
+    float: right;
+}
+
+.cont-sub-logo {
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.cl-area {
+    margin-bottom: 30px;
+}
+
+.cl-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0088cc;
+    color: #ffffff;
+    border-radius: 100%;
+    font-size: 25px;
+    float: left;
+}
+
+.cl-right {
+    float: right;
+    width: 80%;
+}
+
+.cl-logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cl-sub-logo {
+    font-weight: bold;
+    display: block;
+    margin-top: 7px;
+    color: #666666;
+}
+
+.cl-description {
+    display: block;
+    font-size: 15px;
+    margin-top: 7px;
 }
