@@ -34,6 +34,16 @@ $(document).ready(function() {
         }
     });
 
+    $(".modal-open").on("click", function() {
+       $(".modal-fade").show();
+    });
+
+    $(".modal-close").on("click", function() {
+        $(".modal-fade").hide();
+    });
+
+
+
 });
 
 
