@@ -42,6 +42,17 @@ $(document).ready(function() {
         $(".modal-fade").hide();
     });
 
+    $(".mobile-icon").on("click", function() {
+        var rightArea = $(".mobile-nav");
+        if (rightArea.css("display") == "none") {
+            rightArea.show();
+            $(this).removeClass("fa-bars").addClass("fa-close");
+        } else {
+            rightArea.hide();
+            $(this).removeClass("fa-close").addClass("fa-bars");
+        }
+    });
+
 
 
 });

@@ -6,7 +6,6 @@ body {
     font-family: "PT Sans", sans-serif;
     background-color: white;
     color: #333;
-    border-top: 2px solid #0088cc;
 }
 
 div {
@@ -18,6 +17,8 @@ div {
     border-color: #0088cc;
     color: #ffffff!important;
     display: block;
+    box-shadow: none;
+    border: none;
     text-decoration: none;
     text-align: center;
 }
@@ -33,6 +34,7 @@ div {
 
 header {
     padding-top: 30px;
+    border-top: 2px solid #0088cc;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.136);
     position: relative;
 }
@@ -49,55 +51,55 @@ nav {
 }
 
 .search {
-  line-height: 51px;
-  float: right;
-  margin-right: 15px;
-  color: #1d2029;
-  cursor: pointer;
+    line-height: 51px;
+    float: right;
+    margin-right: 15px;
+    color: #1d2029;
+    cursor: pointer;
 }
 
 .search-area {
-  position: absolute;
-  bottom: -60px;
-  z-index: 100;
-  height: 60px;
-  display: none;
-  width: 100%;
-  background: none repeat scroll 0 0 #e0e7ec;
-  border: medium none;
-  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
-  padding: 13px 0;
+    position: absolute;
+    bottom: -60px;
+    z-index: 100;
+    height: 60px;
+    display: none;
+    width: 100%;
+    background: none repeat scroll 0 0 #e0e7ec;
+    border: medium none;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 13px 0;
 }
 
 .search-button {
-  width: 8%;
-  float: left;
-  box-shadow: none;
-  border: none;
-  line-height: 34px;
-  height: 34px;
-  padding: 0;
-  margin-left: 1%;
+    width: 8%;
+    float: left;
+    box-shadow: none;
+    border: none;
+    line-height: 34px;
+    height: 34px;
+    padding: 0;
+    margin-left: 1%;
 }
 
 .search-close {
-  float: right;
-  font-size: 20px;
-  line-height: 34px;
-  cursor: pointer;
-  margin-right: 15px;
+    float: right;
+    font-size: 20px;
+    line-height: 34px;
+    cursor: pointer;
+    margin-right: 15px;
 }
 
 .search-input {
-  background: none repeat scroll 0 0 #ffffff;
-  border: none;
-  color: #444444;
-  float: left;
-  height: 34px;
-  line-height: 18px;
-  padding: 0 10px;
-  vertical-align: top;
-  width: 80%;
+    background: none repeat scroll 0 0 #ffffff;
+    border: none;
+    color: #444444;
+    float: left;
+    height: 34px;
+    line-height: 18px;
+    padding: 0 10px;
+    vertical-align: top;
+    width: 80%;
 }
 
 nav ul {
@@ -274,35 +276,35 @@ nav a:hover, .nav-active {
 }
 
 .mc-left {
-  width: 70%;
-  float: left;
+    width: 70%;
+    float: left;
 }
 
 .mc-right {
-  width: 30%;
-  float: right;
+    width: 30%;
+    float: right;
 }
 
 .mc-logo {
-  font-size: 28px;
-  font-weight: bold;
-  display: block;
-  line-height: 22px;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    line-height: 22px;
 }
 
 .mc-description {
-  font-size: 13px;
-  margin-top: 20px;
-  display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    display: block;
 }
 
 .mc-button {
-  width: 150px;
-  position: relative;
-  top: 20px;
-  cursor: pointer;
-  float: right;
-  padding: 10px 20px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    float: right;
+    padding: 10px 20px;
 }
 
 
@@ -571,60 +573,60 @@ aside {
 }
 
 .clients {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .clients-ovh {
-  width: 100%;
-  overflow: hidden;
-  padding-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
 }
 
 .clients-ovh ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 200%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200%;
 }
 
 .clients-ovh li {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 }
 
 .client {
-  width: 20%;
-  float: left;
+    width: 20%;
+    float: left;
 }
 
 .clients img {
-  height: 60px;
-  margin: auto;
-  display: block;
-  max-width: 100%;
+    height: 60px;
+    margin: auto;
+    display: block;
+    max-width: 100%;
 }
 
 .place {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .place-logo {
-  width: 100%;
-  border-bottom: 2px solid #0088cc;
-  padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid #0088cc;
+    padding-bottom: 10px;
 }
 
 .place-logo-text {
-  float: left;
-  display: block;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .place-logo-right {
-  float: right;
+    float: right;
 }
 
 .place-button {
@@ -643,10 +645,10 @@ aside {
 }
 
 .place-area {
-  width: 100%;
-  height: 350px;
-  margin-top: 20px;
-  background-color: orange;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    background-color: orange;
 }
 
 .place-area iframe {
@@ -655,15 +657,15 @@ aside {
 }
 
 #placeStorage {
-  display: none;
+    display: none;
 }
 
 footer {
-  background: none repeat scroll 0 0 #2c364a;
-  box-shadow: 0 70px 50px -20px #213040 inset;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 40px;
+    background: none repeat scroll 0 0 #2c364a;
+    box-shadow: 0 70px 50px -20px #213040 inset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
 }
 
 .footer-logo {
@@ -911,6 +913,7 @@ footer {
     display: none;
     left: 0;
     width: 100%;
+    z-index: 200;
     height: 100%;
     background-color: rgba(0,0,0,.5);
 }
@@ -992,4 +995,351 @@ footer {
 .modal-submit {
     display: block;
     padding: 5px 12px;
+    width: 100%;
+}
+
+.sc-area {
+    padding: 20px;
+    min-height: 420px;
+}
+
+.modal-result {
+    display: none;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+
+.mobile-nav {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        max-width: 760px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+
+
+    .mobile-icon {
+        display: block;
+        float: right;
+        font-size: 30px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        z-index: 100;
+        height: 70px;
+        top: 0;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        overflow-y: auto;
+        background-color: #fff;
+        display: none;
+        z-index: 100;
+        padding: 0 20px 10px;
+    }
+
+    .mobile-link {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .mobile-menu li {
+        display: block;
+        font-size: 20px;
+    }
+    
+    .mobile-menu a {
+        text-decoration: none;
+        color: #000000;
+        text-align: right;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .mn-number {
+        float: right;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mn-number a {
+        font-size: 15px;
+        color: #000;
+        display: block;
+        float: right;
+        text-decoration: none;
+    }
+
+    .mn-number .hn-icon {
+        float: right;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .pl {
+        width: 48%;
+        margin-left: 4%;
+    }
+
+    .pl:nth-child(3n + 1) {
+        margin-left: 4%;
+    }
+
+    .pl:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+
+    .footer-middle {
+        float: right;
+    }
+
+    .footer-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .page-content {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .cont-right  {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .cont-left {
+        width: 50%;
+        float: none;
+    }
+
+    .good-img {
+        height: 150px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 560px;
+    }
+
+    .middle-logo {
+        font-size: 25px;
+    }
+
+    .middle-plus li {
+        font-size: 20px;
+    }
+
+    .pl {
+        height: 200px;
+    }
+
+    .mc-left {
+        width: 100%;
+    }
+
+    .mc-right {
+        width: 100%;
+    }
+
+    .mc-button {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .footer-right .header-number {
+        float: left;
+    }
+
+    .modal {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .ct {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .good {
+        width: 48%;
+        margin-left: 4%;
+    }
+
+    .good:nth-child(3n + 1) {
+        margin-left: 4%;
+    }
+
+    .good:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+
+    .good-img {
+        height: 220px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .pl {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .pl:nth-child(3n + 1) {
+        margin-left: 0;
+    }
+
+    .mc-logo {
+        font-size: 15px;
+    }
+
+    .mc-description {
+        font-size: 12px;
+    }
+
+    .client {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .place-logo-text {
+        float: none;
+    }
+
+    .place-logo-right {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .place-area {
+        height: 200px;
+    }
+
+    .footer-middle {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .otz-left {
+        display: none;
+    }
+
+    .otz-right {
+        width: 100%;
+    }
+
+    .otz-angle {
+        left: 0;
+    }
+
+    .otz-name {
+        padding-left: 20px;
+    }
+
+    .sert {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cont-left {
+        width: 100%;
+    }
+
+    .cl-icon {
+        display: none;
+    }
+
+    .cl-right {
+        width: 100%;
+    }
+
+    .good:nth-child(3n + 1) {
+        margin-left: 0;
+    }
+
+    .good {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .good-img {
+        height: 270px;
+    }
+
+    .single-right {
+        width: 100%;
+    }
+
+    .single-img {
+        width: 100%;
+    }
+
+
+
 }
